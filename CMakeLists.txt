@@ -37,6 +37,13 @@
 # (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+#
+# Info for build system:
+# project ( grpc VERSION 1.0.0 LANGUAGES C )
+# configure_file(grcp.cmake
+#    ${CMAKE_CURRENT_BINARY_DIR}/grcp-config.cmake
+# 	 @ONLY
+# )
 
 
 cmake_minimum_required(VERSION 2.8)
