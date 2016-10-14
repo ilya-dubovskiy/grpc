@@ -1,3 +1,6 @@
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/Nitro/ext_cmake
 [submodule "third_party/zlib"]
 	path = third_party/zlib
 	url = https://github.com/madler/zlib
